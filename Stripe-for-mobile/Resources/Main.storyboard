@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="uL0-r8-4WR">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Payment View-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Stripe_for_mobile" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AUf-Tr-l38" userLabel="TxtFldEmail">
+                                <rect key="frame" x="20" y="72" width="560" height="44"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Vxb-cW-Z9x"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Card Number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xWq-3j-Fa4" userLabel="TxtFldCardNumber">
+                                <rect key="frame" x="20" y="141" width="560" height="44"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Nv7-jJ-ECA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Expire Date" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YcB-pA-NsV" userLabel="TxtFldExpireDate">
+                                <rect key="frame" x="20" y="205" width="560" height="44"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="xzp-Fc-h1r"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Amount" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="r7O-gn-5sd" userLabel="TxtFldAmount">
+                                <rect key="frame" x="20" y="356" width="560" height="44"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="y5n-6k-2uS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Card Verification Code" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lbE-ar-Zoe" userLabel="TxtFldCVC">
+                                <rect key="frame" x="20" y="285" width="560" height="44"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="U1o-Wk-PDf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="leadingMargin" secondItem="YcB-pA-NsV" secondAttribute="leading" id="09a-JL-W0d"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="lbE-ar-Zoe" secondAttribute="leading" id="Bmg-nd-DEt"/>
+                            <constraint firstItem="AUf-Tr-l38" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="EGF-DR-CXP"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="lbE-ar-Zoe" secondAttribute="trailing" id="LEl-fP-1No"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="r7O-gn-5sd" secondAttribute="trailing" id="NtZ-70-Ac2"/>
+                            <constraint firstItem="r7O-gn-5sd" firstAttribute="top" secondItem="lbE-ar-Zoe" secondAttribute="bottom" constant="27" id="QWJ-LK-WHV"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="AUf-Tr-l38" secondAttribute="leading" id="R7N-e1-aJL"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="r7O-gn-5sd" secondAttribute="leading" id="V25-er-vNW"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="xWq-3j-Fa4" secondAttribute="trailing" id="ZOQ-jM-zhg"/>
+                            <constraint firstItem="lbE-ar-Zoe" firstAttribute="top" secondItem="YcB-pA-NsV" secondAttribute="bottom" constant="36" id="bQ9-I1-WSc"/>
+                            <constraint firstItem="xWq-3j-Fa4" firstAttribute="top" secondItem="AUf-Tr-l38" secondAttribute="bottom" constant="25" id="eV6-7c-Slb"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="AUf-Tr-l38" secondAttribute="trailing" id="huk-yx-CRJ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="YcB-pA-NsV" secondAttribute="trailing" id="joY-pu-g9N"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="xWq-3j-Fa4" secondAttribute="leading" id="mDA-9o-FPu"/>
+                            <constraint firstItem="YcB-pA-NsV" firstAttribute="top" secondItem="xWq-3j-Fa4" secondAttribute="bottom" constant="20" id="mwR-SJ-due"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Payment View" id="GBT-c5-LLA">
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="JGh-9E-K2m">
+                            <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="sendBtnAction:" destination="BYZ-38-t0r" id="qH4-T1-48y"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="txtFldAmount" destination="r7O-gn-5sd" id="jcC-xB-eIR"/>
+                        <outlet property="txtFldCVC" destination="lbE-ar-Zoe" id="7SE-rY-5Xz"/>
+                        <outlet property="txtFldCardNumber" destination="xWq-3j-Fa4" id="1II-O0-KFk"/>
+                        <outlet property="txtFldEmail" destination="AUf-Tr-l38" id="Dkv-sI-Y68"/>
+                        <outlet property="txtFldExpireDate" destination="YcB-pA-NsV" id="wrF-tF-ICz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="992" y="402"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="lil-XR-c3T">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="uL0-r8-4WR" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="fiW-Hk-vmC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="IfV-Oa-UDr"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HjS-4z-fWa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="225" y="464"/>
+        </scene>
+    </scenes>
+</document>

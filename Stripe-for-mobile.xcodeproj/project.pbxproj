@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0483772614FA742B335179F9 /* Pods_Stripe_for_mobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 853CB99D75B1506A717218AC /* Pods_Stripe_for_mobile.framework */; };
+		7C5D0F711D91044D00806FAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C5D0F701D91044D00806FAE /* Main.storyboard */; };
+		7C5D0F731D91045800806FAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C5D0F721D91045800806FAE /* LaunchScreen.storyboard */; };
+		7C5D0F771D91078500806FAE /* Stripe_for_mobile.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7C5D0F751D91078500806FAE /* Stripe_for_mobile.xcdatamodeld */; };
+		7CD1237A1D7D3A380010F428 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD123791D7D3A380010F428 /* AppDelegate.swift */; };
+		7CD1237C1D7D3A380010F428 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD1237B1D7D3A380010F428 /* ViewController.swift */; };
+		7CD123841D7D3A380010F428 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CD123831D7D3A380010F428 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		132AE2669365E03979308596 /* Pods-Stripe-for-mobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stripe-for-mobile.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Stripe-for-mobile/Pods-Stripe-for-mobile.debug.xcconfig"; sourceTree = "<group>"; };
+		70F3C62234E05ED42A1B6FDA /* Pods-Stripe-for-mobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stripe-for-mobile.release.xcconfig"; path = "Pods/Target Support Files/Pods-Stripe-for-mobile/Pods-Stripe-for-mobile.release.xcconfig"; sourceTree = "<group>"; };
+		7C5D0F701D91044D00806FAE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		7C5D0F721D91045800806FAE /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7C5D0F761D91078500806FAE /* Stripe_for_mobile.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Stripe_for_mobile.xcdatamodel; sourceTree = "<group>"; };
+		7CD123761D7D3A370010F428 /* Stripe-for-mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stripe-for-mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CD123791D7D3A380010F428 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7CD1237B1D7D3A380010F428 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7CD123831D7D3A380010F428 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Resources/Assets.xcassets; sourceTree = "<group>"; };
+		7CD123881D7D3A380010F428 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Stripe-for-mobile/Info.plist"; sourceTree = "<group>"; };
+		7CDBDAEF1D8FA1A700168690 /* Stripe-for-mobile-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Stripe-for-mobile-Bridging-Header.h"; sourceTree = "<group>"; };
+		853CB99D75B1506A717218AC /* Pods_Stripe_for_mobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stripe_for_mobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CD123731D7D3A370010F428 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0483772614FA742B335179F9 /* Pods_Stripe_for_mobile.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C5D0F6E1D9102A800806FAE /* Stories */ = {
+			isa = PBXGroup;
+			children = (
+				7CD1237B1D7D3A380010F428 /* ViewController.swift */,
+			);
+			path = Stories;
+			sourceTree = "<group>";
+		};
+		7C5D0F6F1D9103A700806FAE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7C5D0F701D91044D00806FAE /* Main.storyboard */,
+				7C5D0F721D91045800806FAE /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7C5D0F741D91046B00806FAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CD123791D7D3A380010F428 /* AppDelegate.swift */,
+				7CD123831D7D3A380010F428 /* Assets.xcassets */,
+				7CDBDAEF1D8FA1A700168690 /* Stripe-for-mobile-Bridging-Header.h */,
+				7C5D0F751D91078500806FAE /* Stripe_for_mobile.xcdatamodeld */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7CD1236D1D7D3A370010F428 = {
+			isa = PBXGroup;
+			children = (
+				7CD123781D7D3A380010F428 /* Stripe-for-mobile */,
+				7CD123881D7D3A380010F428 /* Info.plist */,
+				7CD123771D7D3A370010F428 /* Products */,
+				D3E48534118AC6D645D0B315 /* Pods */,
+				F1C02B8A799FD8ACCA602065 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7CD123771D7D3A370010F428 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CD123761D7D3A370010F428 /* Stripe-for-mobile.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CD123781D7D3A380010F428 /* Stripe-for-mobile */ = {
+			isa = PBXGroup;
+			children = (
+				7C5D0F6E1D9102A800806FAE /* Stories */,
+				7C5D0F741D91046B00806FAE /* Supporting Files */,
+				7C5D0F6F1D9103A700806FAE /* Resources */,
+			);
+			path = "Stripe-for-mobile";
+			sourceTree = "<group>";
+		};
+		D3E48534118AC6D645D0B315 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				132AE2669365E03979308596 /* Pods-Stripe-for-mobile.debug.xcconfig */,
+				70F3C62234E05ED42A1B6FDA /* Pods-Stripe-for-mobile.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F1C02B8A799FD8ACCA602065 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				853CB99D75B1506A717218AC /* Pods_Stripe_for_mobile.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CD123751D7D3A370010F428 /* Stripe-for-mobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CD1238B1D7D3A380010F428 /* Build configuration list for PBXNativeTarget "Stripe-for-mobile" */;
+			buildPhases = (
+				3C5CBC398090075173CE87FD /* [CP] Check Pods Manifest.lock */,
+				7CD123721D7D3A370010F428 /* Sources */,
+				7CD123731D7D3A370010F428 /* Frameworks */,
+				7CD123741D7D3A370010F428 /* Resources */,
+				52909CD1C32FCE09D0FEC5ED /* [CP] Embed Pods Frameworks */,
+				70D032C56B04540EBB7A2BF9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Stripe-for-mobile";
+			productName = "Stripe-for-mobile";
+			productReference = 7CD123761D7D3A370010F428 /* Stripe-for-mobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CD1236E1D7D3A370010F428 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Asif;
+				TargetAttributes = {
+					7CD123751D7D3A370010F428 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = UZ3VHX535M;
+					};
+				};
+			};
+			buildConfigurationList = 7CD123711D7D3A370010F428 /* Build configuration list for PBXProject "Stripe-for-mobile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CD1236D1D7D3A370010F428;
+			productRefGroup = 7CD123771D7D3A370010F428 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CD123751D7D3A370010F428 /* Stripe-for-mobile */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CD123741D7D3A370010F428 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C5D0F731D91045800806FAE /* LaunchScreen.storyboard in Resources */,
+				7CD123841D7D3A380010F428 /* Assets.xcassets in Resources */,
+				7C5D0F711D91044D00806FAE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C5CBC398090075173CE87FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		52909CD1C32FCE09D0FEC5ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Stripe-for-mobile/Pods-Stripe-for-mobile-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70D032C56B04540EBB7A2BF9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Stripe-for-mobile/Pods-Stripe-for-mobile-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CD123721D7D3A370010F428 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CD1237C1D7D3A380010F428 /* ViewController.swift in Sources */,
+				7CD1237A1D7D3A380010F428 /* AppDelegate.swift in Sources */,
+				7C5D0F771D91078500806FAE /* Stripe_for_mobile.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7CD123891D7D3A380010F428 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7CD1238A1D7D3A380010F428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CD1238C1D7D3A380010F428 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 132AE2669365E03979308596 /* Pods-Stripe-for-mobile.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Stripe-for-mobile/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Asif.Stripe-for-mobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/pdfarhad/ios projects/Asif Project/Stripe-for-mobile/Stripe-for-mobile/Supporting Files/Stripe-for-mobile-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		7CD1238D1D7D3A380010F428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70F3C62234E05ED42A1B6FDA /* Pods-Stripe-for-mobile.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Stripe-for-mobile/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Asif.Stripe-for-mobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/pdfarhad/ios projects/Asif Project/Stripe-for-mobile/Stripe-for-mobile/Supporting Files/Stripe-for-mobile-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CD123711D7D3A370010F428 /* Build configuration list for PBXProject "Stripe-for-mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CD123891D7D3A380010F428 /* Debug */,
+				7CD1238A1D7D3A380010F428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CD1238B1D7D3A380010F428 /* Build configuration list for PBXNativeTarget "Stripe-for-mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CD1238C1D7D3A380010F428 /* Debug */,
+				7CD1238D1D7D3A380010F428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7C5D0F751D91078500806FAE /* Stripe_for_mobile.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7C5D0F761D91078500806FAE /* Stripe_for_mobile.xcdatamodel */,
+			);
+			currentVersion = 7C5D0F761D91078500806FAE /* Stripe_for_mobile.xcdatamodel */;
+			path = Stripe_for_mobile.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7CD1236E1D7D3A370010F428 /* Project object */;
+}
